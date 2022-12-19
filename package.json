@@ -1,0 +1,30 @@
+{
+  "name": "@mathiasmichaelweiss/wsexspress-icons-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mathiasmichaelweiss"
+  },
+  "version": "1.0.0",
+  "description": "wsexpress icons library",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "mathias michael weiss",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^17.0.34",
+    "react": "^17.0.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
