@@ -4,7 +4,7 @@ import { IconProps } from "../iconInterfaces";
 const IconModal = ({ size = 16 }: IconProps) => {
     const viewBox = `0 0 ${size} ${size}`
 
-    const svg = <svg width="{size}" height="{size}" viewBox="{viewBox}" fill="none" xmlns="http://www.w3.org/2000/svg">
+    const svg = <svg width={size} height={size} viewBox={viewBox} fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M12.2778 3H3.38889C2.62183 3 2 3.62183 2 4.38889V11.3333C2 12.1004 2.62183 12.7222 3.38889 12.7222H12.2778C13.0448 12.7222 13.6667 12.1004 13.6667 11.3333V4.38889C13.6667 3.62183 13.0448 3 12.2778 3Z" fill="#D5DFEB"/>
     <path d="M2 4.38889C2 3.62183 2.62183 3 3.38889 3H12.2778C13.0448 3 13.6667 3.62183 13.6667 4.38889V6.88889H2V4.38889Z" fill="#8692A3"/>
     <path d="M4.49997 4.80556C4.49997 4.42203 4.18906 4.11111 3.80553 4.11111C3.422 4.11111 3.11108 4.42203 3.11108 4.80556C3.11108 5.18909 3.422 5.5 3.80553 5.5C4.18906 5.5 4.49997 5.18909 4.49997 4.80556Z" fill="#2A2F39"/>

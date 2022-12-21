@@ -4,7 +4,7 @@ import { IconProps } from "../iconInterfaces";
 const IconNavsTabs = ({ size = 16 }: IconProps) => {
     const viewBox = `0 0 ${size} ${size}`
 
-    const svg = <svg width="{size}" height="{size}" viewBox="{viewBox}" fill="none" xmlns="http://www.w3.org/2000/svg">
+    const svg = <svg width={size} height={size} viewBox={viewBox} fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M8.08697 3.86957H5.47827V5.6087H8.08697V3.86957Z" fill="#2A2F39"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.26086 3.65218H8.30434V5.82609H5.26086V3.65218ZM5.69565 4.08696V5.39131H7.86956V4.08696H5.69565Z" fill="#2A2F39"/>
     <path d="M10.6956 3.86957H8.08691V5.6087H10.6956V3.86957Z" fill="#8692A2"/>

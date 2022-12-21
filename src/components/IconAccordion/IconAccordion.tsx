@@ -4,7 +4,7 @@ import { IconProps } from "../iconInterfaces";
 const IconAccordion = ({ size = 16 }: IconProps) => {
     const viewBox = `0 0 ${size} ${size}`
 
-    const svg = <svg width="{size}" height="{size}" viewBox="{viewBox}" fill="none" xmlns="http://www.w3.org/2000/svg">
+    const svg = <svg width={size} height={size} viewBox={viewBox} fill="none" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M4.08696 7.34784C3.48665 7.34784 3 7.83449 3 8.4348V11.9131C3 12.5134 3.48665 13 4.08696 13H11.913C12.5133 13 13 12.5134 13 11.9131V8.4348C13 7.83449 12.5133 7.34784 11.913 7.34784H4.08696ZM12.1304 12.1304H3.86957V8.2174H12.1304V12.1304Z" fill="#2A2F39"/>
     <path d="M7.3478 9.08694H4.30432V9.52173H7.3478V9.08694Z" fill="#D5DFEB"/>
     <path d="M8.65215 9.95651H4.30432V10.3913H8.65215V9.95651Z" fill="#B3B8BE"/>
