@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mathiasmichaelweiss"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "wsexpress icons library",
   "main": "dist/cjs/index.js",
   "scripts": {
